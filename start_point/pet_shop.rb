@@ -9,11 +9,11 @@
 # end
 #
 # #test 3 + 4
-def add_or_remove_cash(total_cash, cash_added)
- total_cash = @pet_shop[:admin][:total_cash]
- new_cash = total_cash + cash_added
- return new_cash
-end
+# def add_or_remove_cash(total_cash, cash_added)
+#  total_cash = @pet_shop[:admin][:total_cash]
+#  new_cash = total_cash + cash_added
+#  return new_cash
+# end
 
 # # test 5
 # def pets_sold(sold)
@@ -25,7 +25,7 @@ end
 #
 # end
 
-# # test 7
+# test 7
 # def stock_count(count)
 #   count = @pet_shop[:pets].count()
 #   return count
