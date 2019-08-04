@@ -20,9 +20,10 @@
 # end
 #
 # # test 6
-# def increase_pets_sold
-#
-# end
+def increase_pets_sold(original_pets, pets_sold)
+   original_pets = name[:admin][:pets_sold]
+   return
+end
 #
 # # test 7
 # def stock_count(count)
