@@ -20,10 +20,9 @@
 # end
 #
 # # test 6
-def increase_pets_sold(original_pets, pets_sold)
-   original_pets = name[:admin][:pets_sold]
-   return
-end
+# def increase_pets_sold(name, pets_sold)
+#    name[:admin][:pets_sold] += pets_sold
+# end
 #
 # # test 7
 # def stock_count(count)
@@ -44,19 +43,19 @@ end
 # end
 #
 # # test 10 + 11
-def find_pet_by_name(pet_shop, pet_to_find)
-pet_by_name = []
-  for pet in pet_shop[:pets]
-    if pet[:name] == pet_to_find
-      pet_by_name = pet
-    end
-  end
-  if pet_by_name.empty?
-    return nil
-  else
-    return pet_by_name
-  end
-end
+# def find_pet_by_name(pet_shop, pet_to_find)
+# pet_by_name = []
+#   for pet in pet_shop[:pets]
+#     if pet[:name] == pet_to_find
+#       pet_by_name = pet
+#     end
+#   end
+#   if pet_by_name.empty?
+#     return nil
+#   else
+#     return pet_by_name
+#   end
+# end
 #
 # # test 12
 # def remove_pet_by_name
@@ -81,6 +80,7 @@ end
 #   count = @customers[][:pets]
 # end
 #
-# # test 17
-# def add_pet_to_customer
-# end
+# test 17
+def add_pet_to_customer(name, pet_to_be_added)
+   
+end
